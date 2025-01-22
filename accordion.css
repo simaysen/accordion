@@ -1,0 +1,27 @@
+.accordion {
+    background-image: url(https://trikky.ru/wp-content/blogs.dir/1/files/2023/08/15/img-20230815-202149-173.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(235, 235, 225);
+
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
